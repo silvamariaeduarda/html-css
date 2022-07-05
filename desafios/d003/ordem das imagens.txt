@@ -1,0 +1,5 @@
+Ordem das imagens:
+
+3 7 5
+9 1 8
+6 2 4

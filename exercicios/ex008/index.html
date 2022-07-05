@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark {
+           background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase, temos um <b>termo em negrito</b> usando a tag &lt;b&gt; (tag não semântica, ou seja, ela não tem significado apenas formato em negrito)</p>
+    <p>Nesta frase, temos um <strong>termo em destaque</strong> usando a tag &lt;strong&gt; (tag semântica, com significado)</p>
+    <p>Visualmente essas duas frases não possuem diferença, mas a formatação &lt;b&gt; só tem sentido de forma; enquando a tag &lt;strong&gt;, além da forma atribui um sentido para a frase, porque nessa frase o termo é forte, de destaque, strong.</p>
+
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em Itálico</i> usando a tag &lt;i&gt; (tag não semântica)</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag &lt;em&gt; (tag semântica)</p>
+    <p>Novamente, visualmente as duas frases não possuem diferença, mas a formatação &lt;i&gt; só tem sentido de forma; enquanto a tag &lt;em&gt; tem significado.</p>
+
+    <h3>Tags que serão obsoletas</h3>
+    <p>As tags &lt;b&gt; e &lt;i&gt; pertencem ao documento HTML4, ainda não são consideradas obsoletas, mas a tendência é que em algum momento elas passem a serem inutilizáveis, impróprias para o uso em HTML5, por isso não é recomendado o uso. Então sempre que quiser destacar ou enfatizar uma frase use respectivamente: &lt;strong&gt; e &lt;em&gt;</p>
+    <p>Negrito / Itálico = Forma = CSS<br>
+    Destaque / Ênfase = sentido = HTML5</p>
+
+    <h2>Texto marcado</h2>
+    <p>Podemos também criar um <mark>texto marcado</mark> usando a tag &lt;mark&gt;</p>
+    <p>Em outro parágrafo, temos outro <mark>texto marcado</mark> no final.</p> 
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo.</p>
+    <p>Enquanto a tag para aumentar as letras &lt;big&gt; é considerada obsoleta por ser uma forma, a tag para diminuir &lt;small&gt; atribui sentido (como por exemplo: para ler as letras pequenas de um contrato) por isso essa tag não é vista como obsoleta.</p>
+
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado (tag &lt;del&gt;).</p>
+
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um texto como <ins>um texto inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois (tag &lt;ins&gt;).</p>
+    <p>Existe também o <u>sublinhado</u> usando a tag &lt;u&gt; (tag não semântica)</p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3, usando a tag &lt;sup&gt;</p>
+
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O, usando a tag &lt;sub&gt;</p>
+</body>
+</html>
