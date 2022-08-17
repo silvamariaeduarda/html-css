@@ -14,6 +14,13 @@
             text-align: center;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         table {
             width: 500px;
             border-collapse: collapse;
@@ -40,17 +47,19 @@
 <body>
     <h1>Uso de Tabelas Grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
+
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População (2021)</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 150px">População (2021)</th>
             </tr>
         </thead>
 
         <tfoot>
             <td style="color:gray;">.</td>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="numero"><strong>197 682 721 05</strong></td>
         </tfoot>
 
