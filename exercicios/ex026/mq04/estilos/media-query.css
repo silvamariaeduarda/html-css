@@ -22,7 +22,6 @@ Grandes telas: acima de 1200px
 
     main::after {
         content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
-
         text-decoration: overline;
     }
 
